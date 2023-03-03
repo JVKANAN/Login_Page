@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    background: url(coffe1.jpg);
+    background: url(1199017.jpg);
     background-size: cover;
     background-position: center;
     font-family: sans-serif;
@@ -10,8 +10,10 @@ body{
 .loginbox{
     width: 320px;
     height: 420px;
-    background: rgb(0, 0, 0);
+    background-color: transparent;
+    backdrop-filter: blur(10px);
     color: #fff;
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.9);
     top: 50%;
     left: 50%;
     position: absolute;
@@ -29,6 +31,7 @@ body{
     position: absolute;
     top: -60px;
     left: calc(50% - 50px);
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.5);
 }
 
 h1{
@@ -36,6 +39,7 @@ h1{
     padding: 0 0 20px;
     text-align: center;
     font-size: 22px;
+    
 }
 
 .loginbox p{
@@ -71,16 +75,16 @@ h1{
 
 .loginbox input[type="submit"]:hover{
     cursor:pointer;
-    background: #ffc107;
-    color:#000;
+    background: #284434;
+    color:#ffffff;
 }
 .loginbox a{
     text-decoration: none;
     font-size: 12px;
     line-height: 20px;
-    color: darkgrey;
+    color:#ffffff;
 }
 
 .loginbox a:hover{
-    color: #ffc107;
+    color: #284434;
 }
